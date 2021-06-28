@@ -1,4 +1,4 @@
-package lec01_java_basics;
+package lec01_java_basics_06222021;
 
 /*
  Java Comments:
@@ -7,10 +7,9 @@ The Java comments are the statements that are not executed by the compiler and i
 */
 // single line comment is mostly used
 
-public class JavaComments {
-
-	public static void main(String[] args) { // This is single line comment
-	System.out.println("This is about Java Comments"); // hi, this is my output
+public class D_java_comments {
+	public static void main(String[] args) {  // This is single line comment, we use control/command + / to get single comment
+	System.out.println("This is about Java Comments");  // This is my print output
 
 	}
 

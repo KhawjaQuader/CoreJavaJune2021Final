@@ -1,7 +1,6 @@
-package lec01_java_basics;
+package lec01_java_basics_06222021;
 
-public class Hello {
-
+public class A_Hello {
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
 
