@@ -1,9 +1,7 @@
-package lec04_java_variables_and_methods;
-/*
- * we learn method in this class and how it is called?
- * */
+package lec05_java_variables_and_methods;
 
-public class Address07 { 
+
+public class Address08 { 
 	/*
 	 class body contain:
 			-- Variable --- Declared and/or Initialized
@@ -19,26 +17,21 @@ public class Address07 {
 	static int zipCode = 10019;
 	static boolean inUSA = true;
 	
-	/*
-	 This is a void type method
-    -- method name is always in lower case
-	-- class doesn't have a parentheses, but the method have
-	-- when {curly braces} is present, then we can say, the method is implemented
-	-- method can not be declared (only implemented) like variables or constructor inside class.
-	-- method name can be same as Class name, but must be in lower case.	
-	*/
-	
-	public static void myInfo() {
-		System.out.println("This is a void type method");
-	}
-	
-
-	public static void main(String[] args) { 
+	// This is a method, void type
+	// method name is always in lower case
+	// class doesn't have a parentheses, but the method have
+	// when {carly braces} is present, then we can say, the method is implemented
+	// method can not declared inside class.
+	// we made a relation between variables and method
+	public static void myInfo() { // here we are calling all the variables inside this method
 		System.out.println(MyName + "\n" + houseNumber + houseDirection + " " + streetNumber + "th St\n" + CityName
 				+ ", " + State + " " + zipCode + "\n");
 		System.out.println("Is the adress inside USA?" + inUSA);
-		
-		myInfo();
+	}
+	
+
+	public static void main(String[] args) {	
+		myInfo(); // here method is initialized.
 
 	}
 

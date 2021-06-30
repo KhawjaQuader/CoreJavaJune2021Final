@@ -1,5 +1,9 @@
 package lec04_java_variables_and_methods;
 
+/*
+ * A regular class without variables
+ * */
+
 public class Address01 {
 
 	public static void main(String[] args) {

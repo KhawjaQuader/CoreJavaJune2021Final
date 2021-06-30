@@ -4,7 +4,7 @@ package lec04_java_variables_and_methods;
  * 1) " " -- is called empty String
  * 
  * */
-public class Address05 { // Opening of Class body
+public class Address05 {
 	static String MyName = "Mohammad Sharkar";
 	static int houseNumber = 625;
 	static char houseDirection = 'W';
@@ -14,12 +14,15 @@ public class Address05 { // Opening of Class body
 	static int zipCode = 10019;
 	static boolean inUSA = true;
 
-	public static void main(String[] args) { // below we are calling multiple variables. but the outcome doesn't mean
-												// anything
-		System.out.println(MyName + "\n" + houseNumber + houseDirection + " " + streetNumber + "th St\n" + CityName
-				+ ", " + State + " " + zipCode + "\n");
+	public static void main(String[] args) { // below we are calling multiple variables. but the outcome doesn't look good
+		// Like String concatenation, variables are executing one after another by + symbol.
+		System.out.println(MyName + houseNumber + houseDirection + streetNumber + CityName + State + zipCode);
 		System.out.println("Is the adress inside USA?" + inUSA);
+		// but if we put empty String inside it looks good, but still in one line
+		System.out.println(MyName + " " + houseNumber + " "  + houseDirection + " "  + streetNumber + " "  + CityName + " "  + State + " "  + zipCode);
+		// we can also use anything necessary to add inside empty String
+		
 
 	}
 
-} // Closing of Class body
+} 
