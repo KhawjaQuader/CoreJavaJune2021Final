@@ -22,7 +22,7 @@ public class Address08 {
 	// class doesn't have a parentheses, but the method have
 	// when {carly braces} is present, then we can say, the method is implemented
 	// method can not declared inside class.
-	// we made a relation between variables and method
+	// we made a relation between variables and method here
 	public static void myInfo() { // here we are calling all the variables inside this method
 		System.out.println(MyName + "\n" + houseNumber + houseDirection + " " + streetNumber + "th St\n" + CityName
 				+ ", " + State + " " + zipCode + "\n");

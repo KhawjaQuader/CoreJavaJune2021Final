@@ -16,7 +16,7 @@ class body contain:
 -- String, int, char, boolean, double.
 
 4) what does it mean by -- variable declared?
--- it means we did not assign value for variables.
+-- it means we did not assign any value for variables.
 
 5) what does it mean by -- variable initialized?
 -- it means we assign value for variables.
@@ -37,8 +37,16 @@ class body contain:
 -- a non static variable (or non-static method) can't call inside a main method (which is a static method).
 -- solve 2 way -- i) By making the variables static outside the main method
 						ii) Or by moving (initialized) the variables inside the  main method 
+						
+11) " " -- is called?
+--  empty String
 
-
+12) What are the features of method?
+-- method name is always in lower case
+-- class doesn't have a parentheses, but the method have
+-- when {curly braces} is present, then we can say, the method is implemented
+-- method can not be declared (only implemented) like variables or constructor inside class.
+-- method name can be same as Class name, but must be in lower case. -- important interview question
 
  * */
 

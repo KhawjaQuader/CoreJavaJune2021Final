@@ -1,6 +1,6 @@
 package lec01_java_basics_06222021;
 
-public class B_Good_evening { // use of camel case alternative
+public class B_good_evening { // use of camel case alternative
 
 	public static void main(String[] args) {
 		// Use of print vs println

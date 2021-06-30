@@ -1,4 +1,4 @@
-package lec01_java_basics_06222021;
+package lec05_java_variables_and_methods;
 
 public class Practice {
 	
