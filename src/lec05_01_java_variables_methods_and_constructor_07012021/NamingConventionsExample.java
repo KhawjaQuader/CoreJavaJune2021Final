@@ -1,4 +1,4 @@
-package lec05_java_variables_and_methods;
+package lec05_01_java_variables_methods_and_constructor_07012021;
 
 // class names are written in UpperCamelCase
 // class names are usually nouns or noun phrases.
@@ -8,9 +8,9 @@ public class NamingConventionsExample {
 	public static final String WEDDING_REGISTRY_PAGE_TITLE = "Amazon Wedding";
 	public static final int LONG_WAIT = 10;
 
-	// non-constant field names are written with lowerCamelCase
+	// non-constant field/variable names are written with lowerCamelCase
 	// variable names must be specific and meaningful
-	// no duplication
+	// no duplication is accepted
 	public static int houseNumber = 625; // variable initialized
 	public static int avenueNumber; // variable declared
 
@@ -19,7 +19,8 @@ public class NamingConventionsExample {
 	// below:
 	public static String string = "String";
 
-	
+	// Constructor names are written in UpperCamelCase
+	// Constructor names are similar as Class Name
 	public NamingConventionsExample() { // Constructor declared
 		System.out.println("This is a default constructor");
 	}

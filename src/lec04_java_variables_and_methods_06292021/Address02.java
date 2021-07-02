@@ -1,4 +1,4 @@
-package lec04_java_variables_and_methods;
+package lec04_java_variables_and_methods_06292021;
 
 
 
@@ -35,7 +35,7 @@ public class Address02 { //Opening of Class body
 	
 	int zipCode = 10019;
 	
-	boolean inUSA = true; // Here boolean is a type of variable, and inUSA is the feature of variable
+	boolean inUSA = true; // Here boolean is a type of variable
 	// boolean type feature start with Lower case, boolean type variable doesn't have quotation
 	
 		

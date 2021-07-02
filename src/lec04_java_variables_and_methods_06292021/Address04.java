@@ -1,4 +1,4 @@
-package lec04_java_variables_and_methods;
+package lec04_java_variables_and_methods_06292021;
 /*
  * 1) if variable is inside the main method they must be non-static
  * 2) This is not common, used just as an option to solve the issue.

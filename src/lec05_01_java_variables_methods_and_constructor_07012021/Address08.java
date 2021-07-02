@@ -1,4 +1,4 @@
-package lec05_java_variables_and_methods;
+package lec05_01_java_variables_methods_and_constructor_07012021;
 
 
 public class Address08 { 
@@ -8,6 +8,7 @@ public class Address08 {
 			-- Constructor  --- Declared and/or Initialized
 			-- Method  --- (not declared) Implemented and/or Initialized 
 	 * */
+	// access modifier for all here is default --- important interview question
 	static String MyName = "Mohammad Sharkar"; // VARIABLE IS INITIALIZED
 	static int houseNumber = 625;
 	static char houseDirection = 'W';

@@ -1,4 +1,4 @@
-package lec04_java_variables_and_methods;
+package lec04_java_variables_and_methods_06292021;
 
 /*
  * 1) " " -- is called empty String
