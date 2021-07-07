@@ -1,4 +1,4 @@
-package lec05_01_java_variables_methods_and_constructor_07012021;
+package lec05_01_java_variables_initialized_methods_and_constructor_07012021;
 
 public class MyInfo {
 
@@ -24,12 +24,14 @@ public class MyInfo {
 	// case
 	public void myInfo() { // method implemented
 		System.out.println("My name is: " + MyName + ", Age: " + myAge + ", sex: " + mySex
-				+ ". My citizenship status is: " + usaCitizen + ". I worked for " + myWorkingYear
+				+ ". Am I a USCitizen? : " + usaCitizen + ". I worked for " + myWorkingYear
 				+ "year. My yearly house rent is: " + myHouseRent + ". My yearly salary: " + myYearlySalary
 				+ ". My grade: " + myGrade + " and my height: " + myHeight);
 	}
 	
 	/*
+	 * The below code can also be used here, but it is better to use in Test Class 
+	 * 
 	public static void main(String[] args) {
 		// MyInfo is a Class
 		// myInfo is an object (most of the place it is called, not reference variable)

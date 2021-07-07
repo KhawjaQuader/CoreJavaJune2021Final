@@ -1,4 +1,4 @@
-package lec05_01_java_variables_methods_and_constructor_07012021;
+package lec05_01_java_variables_initialized_methods_and_constructor_07012021;
 
 public class TestMyInfo {
 

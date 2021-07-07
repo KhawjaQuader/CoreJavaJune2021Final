@@ -19,7 +19,7 @@ public class MyInfo {
 
 	public void myInfo() { // method implemented
 		System.out.println("My name is: " + MyName + ", Age: " + myAge + ", sex: " + mySex
-				+ ". My citizenship status is: " + usaCitizen + ". I worked for " + myWorkingYear
+				+ ". Am I a USCitizen? " + usaCitizen + ". I worked for " + myWorkingYear
 				+ "year. My yearly house rent is: " + myHouseRent + ". My yearly salary: " + myYearlySalary
 				+ ". My grade: " + myGrade + " and my height: " + myHeight);
 	}

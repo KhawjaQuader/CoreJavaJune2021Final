@@ -1,8 +1,8 @@
-package lec05_01_java_variables_methods_and_constructor_07012021;
+package lec05_01_java_variables_initialized_methods_and_constructor_07012021;
 
 // class names are written in UpperCamelCase
 // class names are usually nouns or noun phrases.
-public class NamingConventionsExample {
+public class B_namingConventionsExample {
 
 	// constant names are written with all upper case letters with words separated by underscores
 	public static final String WEDDING_REGISTRY_PAGE_TITLE = "Amazon Wedding";
@@ -21,7 +21,7 @@ public class NamingConventionsExample {
 
 	// Constructor names are written in UpperCamelCase
 	// Constructor names are similar as Class Name
-	public NamingConventionsExample() { // Constructor declared
+	public B_namingConventionsExample() { // Constructor declared
 		System.out.println("This is a default constructor");
 	}
 	

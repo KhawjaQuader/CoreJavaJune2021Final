@@ -1,4 +1,4 @@
-package lec05_01_java_variables_methods_and_constructor_07012021;
+package lec05_01_java_variables_initialized_methods_and_constructor_07012021;
 
 /*
 
@@ -9,15 +9,15 @@ package lec05_01_java_variables_methods_and_constructor_07012021;
 			<  >   Angular bracket
 			“  “	 Double Quotation or quotation
 			‘  ‘ 	 Single quotation (single must be mentioned)
-			/   	 Slash
+			/   	 Slash/Single slash
 			\    	 Back slash
 			;        Semicolon
 			=    	 Assign operator
 
 2) Describe the classification of variables?
 -- Class Variable 2 type:
-		i) Primitive type - eight types - byte, short, int, long, float, double, char or boolean.
-		ii) Reference type --- is coming at the end of class
+		i) Primitive data type variable- eight types - byte, short, int, long, float, double, char or boolean.
+		ii) Reference data type variable --- is coming at the end of class
 
 3) Describe primitive type data?
 
@@ -56,17 +56,9 @@ package lec05_01_java_variables_methods_and_constructor_07012021;
 8) What is constructor in java?
 -- A constructor is a special method that is used to initialize a newly created object and is called just after the memory is allocated for the object. 
 
-************** future ****************
-
-9) What is Interface?
--- Interface is a Blueprint of Class. An interface is a collection of methods that are defined but not implemented. It is just like Java Class, but only has static constants and abstract methods. Java uses Interface to implement multiple inheritance.
-
-10) What is Abstract class?
--- An abstract class is a super class that cannot be instantiated (can’t create objects) and is used to define general characteristics. Contains abstract and non abstract methods, can be extended by the concrete class.
-
  * */
 
-public class Info_variables_and_methods {
+public class A_info_variables_and_methods {
 
 	public static void main(String[] args) {
 		System.out.println("\"Info regarding Variable and Method\"");
