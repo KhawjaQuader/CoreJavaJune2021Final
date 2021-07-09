@@ -14,7 +14,7 @@ package lec07_02_java_constructor;
 -- Parameterized Constructor
 -- you shouldn't write a parameterized constructor without writing a default constructor. It's a norm.
 
-4) What is the "this" keyword in java?
+4) What is the "this" keyword in java? **********
 -- this keyword represents an instance of the class. ‘this’ can be used to access class methods and variables.
 -- Instance: a step, stage, or situation viewed as part of a process or series of events. 
 
@@ -26,6 +26,10 @@ package lec07_02_java_constructor;
 
 6) Alternative:
 -- from Header of eclipse -- select source -- follow above step
+
+7) Important Info:
+-- When we put local variable inside the constructor or method, they are in general call Parameter, when we put the value under main method, they are called argument.
+
 
  
 

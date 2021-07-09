@@ -1,4 +1,4 @@
-package lec06_java_git_and_github;
+package lec06_java_connecting_git_and_github;
 
 /*
  Git and Github:

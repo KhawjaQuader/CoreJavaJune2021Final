@@ -11,7 +11,7 @@ public class Employee {
 	// A class can contain one default and multiple parameterized constructor
 	// Default Constructor must be declared before parameterized constructor is
 	// written either default is necessary or not
-	public Employee() { 
+	public Employee() {
 		System.out.println("This default constructor is from Employee class");
 	}
 
@@ -79,15 +79,15 @@ public class Employee {
 		System.out.println("Employee sex: " + empSex + ", ID: " + empID + ", Name: " + EmpName
 				+ "and full Time Employee? : " + fullTimeEmployee);
 	}
-	
+
 	// parameterized method
-		public void employee(char sex, String empName, int empID,  boolean fullTimeEmployee) {
-			this.EmpName = empName;
-			this.empID = empID;
-			this.empSex = sex;
-			this.fullTimeEmployee = fullTimeEmployee;
-			System.out.println(
-					"Employee Name: " + EmpName + ", ID: " + empID + ", Sex: " + sex + " and Full Time employee? " + fullTimeEmployee);
-		}
+	public void employee(char sex, String empName, int empID, boolean fullTimeEmployee) {
+		this.EmpName = empName;
+		this.empID = empID;
+		this.empSex = sex;
+		this.fullTimeEmployee = fullTimeEmployee;
+		System.out.println("Employee Name: " + EmpName + ", ID: " + empID + ", Sex: " + sex
+				+ " and Full Time employee? " + fullTimeEmployee);
+	}
 
 }
