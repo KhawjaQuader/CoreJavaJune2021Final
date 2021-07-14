@@ -23,7 +23,7 @@ package lec05_01_java_variables_initialized_methods_and_constructor_07012021;
 
 		byte = –128 (2^7) to 127 (2^7-1)  //because of zero, 1 is deducted. (-128 to +127)
 		
-		short = –32,768 to 32,767   
+		short = –32,768 to 32,767   (32768=256byte)
 		
 		int (integer) = –2,147,483,648 to 2,147,483, 647     [mostly used]
 		
