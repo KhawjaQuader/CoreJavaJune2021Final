@@ -1,9 +1,16 @@
 package lec11_java_oop_inheritance;
 
 /* 
-1. GrandFather = Parent class/Super Class/Base class for Father, Uncle and Aunt. Father, uncle, aunt is child class of parent class
+ * 
+ * 
 
-2. Father is parent class, me, brother, sister is child class of parent class
+1. extends keyword is used to inherit the property of parent class 
+
+2. GrandFather class is a Parent class/Super Class/Base class for Father, Uncle and Aunt. 
+
+3. Father, uncle, aunt is child class of parent class (Grandfather) 
+
+4. Father is parent class, me, my brother, my sister is child class of parent class (Father)
 
 3. Me is parent class, my daughter is child class of Me.
  

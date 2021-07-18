@@ -1,6 +1,6 @@
 package lec11_java_oop_inheritance;
 
-public class Uncle {
+public class Uncle extends Grandfather {
 	public void uncleInfo() {
 		System.out.println("Uncle: Rouf");
 	}

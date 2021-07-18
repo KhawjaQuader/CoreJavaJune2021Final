@@ -1,6 +1,6 @@
 package lec11_java_oop_inheritance;
 
-public class Father {
+public class Father extends Grandfather {
 	
 	public void fatherInfo() {
 		System.out.println("Father: Johirul");
