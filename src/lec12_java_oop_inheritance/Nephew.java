@@ -1,6 +1,6 @@
-package lec11_java_oop_inheritance;
+package lec12_java_oop_inheritance;
 
-public class Nephew {
+public class Nephew extends Brother {
 	public void nephewInfo() {
 		System.out.println("Nephew: Reehan");
 	}

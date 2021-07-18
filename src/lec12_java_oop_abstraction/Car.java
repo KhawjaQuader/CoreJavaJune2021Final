@@ -13,4 +13,13 @@ public interface Car extends Taxi, Truck {
 
 	public abstract void brake(); // we can write abstract keyword inside the method or not.
 
+	// from Java 1.8, JAVA implemented static and default type method in interface
+	public default void honk() { // default method
+		System.out.println("honk feature");
+	}
+
+	public static void gear() { // static method
+		System.out.println("gear feature");
+	}
+
 }
