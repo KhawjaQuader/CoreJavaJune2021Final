@@ -1,8 +1,8 @@
-package lec14_java_oop_abstraction_04;
+package lec15_java_oop_abstraction_05;
 
 // This is an abstract class
 // we must have to put abstract keyword in abstract class
-public abstract class FlyingCar extends ElectricCar implements Rocket, HoverCar {
+public abstract class FlyingCar extends ElectricCar implements Rocket, HoverCar{
 	// an abstract class can contain variable and can contain parameterized method.
 	// an abstract class can inherit only one abstract class  by extends keyword or
 	// an abstract class can inherit only one regular class by extends keyword

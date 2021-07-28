@@ -1,4 +1,4 @@
-package lec15_java_oop_use_of_super_class;
+package lec14_java_oop_use_of_super_class;
 
 public class Employee {
 	// global variables
@@ -6,8 +6,6 @@ public class Employee {
 	public int empId;
 	public char sex;
 	public boolean usCitizen;
-	public String Location;
-	public int zipCode;
 
 	// default constructor
 	public Employee() {
@@ -15,7 +13,7 @@ public class Employee {
 	}
 
 	// parameterized constructor
-	public Employee(String empName, int empId, char sex, boolean usCitizen) { // local variable also called parameter
+	public Employee(String empName, int empId, char sex, boolean usCitizen) {
 		this.EmpName = empName;
 		this.empId = empId;
 		this.sex = sex;
@@ -25,7 +23,7 @@ public class Employee {
 
 	// Void or no return method or non parameterized method
 	public void empInfo() {
-		System.out.println("This void type method is from Employee class");
+		System.out.println("This void method is from Employee class");
 	}
 
 	// parameterized method
@@ -34,7 +32,7 @@ public class Employee {
 		this.empId = empId;
 		this.sex = sex;
 		this.usCitizen = usCitizen;
-		System.out.println("Id: " + empId + ", Name: " + empName + ", Sex: " + sex + " and US Citizen: " + usCitizen);
+		System.out.println("Name: " + empName + ", Id: " + empId + ", Sex: " + sex + " and US Citizen: " + usCitizen);
 	}
 
 }
