@@ -1,4 +1,4 @@
-package lec15_java_oop_use_of_super_class;
+package lec15_java_oop_use_of_super_in_child_class;
 
 // MountSinai is a child class(or sub class )
 // Employee is a Parent class(or Super Class or Base class)
@@ -29,7 +29,7 @@ public class MountSinai extends Employee {
 	// parameterized constructor
 	public MountSinai(String moto, int benefit) {
 		super();
-		// super("Matt", 42373, 'M', true);
+		//super("Matt", 42373, 'M', true);
 		super.empInfo();
 		super.info("Bob", 83190, 'M', false);
 		super.Location = "Bronx";

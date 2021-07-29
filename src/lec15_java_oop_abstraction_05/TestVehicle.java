@@ -1,6 +1,6 @@
 package lec15_java_oop_abstraction_05;
 
-public class TestCar {
+public class TestVehicle {
 
 	public static void main(String[] args) {
 		System.out.println("\n---------------------------------------------");

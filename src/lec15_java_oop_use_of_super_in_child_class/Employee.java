@@ -1,4 +1,4 @@
-package lec15_java_oop_use_of_super_class;
+package lec15_java_oop_use_of_super_in_child_class;
 
 public class Employee {
 	// global variables

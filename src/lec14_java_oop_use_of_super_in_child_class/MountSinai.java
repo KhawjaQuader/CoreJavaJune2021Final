@@ -1,4 +1,4 @@
-package lec14_java_oop_use_of_super_class;
+package lec14_java_oop_use_of_super_in_child_class;
 
 public class MountSinai extends Employee {
 	public String Moto;
