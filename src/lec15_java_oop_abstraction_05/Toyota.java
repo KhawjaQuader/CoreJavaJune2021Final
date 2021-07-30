@@ -1,10 +1,11 @@
 package lec15_java_oop_abstraction_05;
 
 // Toyota is a regular class
-//when A regular class extends one regular class or abstract class and implements multiple +
-//interface, that regular class (Toyota) is called concrete class (interview question)
+// when A regular class extends one regular class or abstract class and implements multiple +
+//interfaces, that regular class (Toyota) is called concrete class (important interview question)
+//https://www.geeksforgeeks.org/difference-between-abstract-class-and-concrete-class-in-java/
 
-public class Toyota extends FlyingCar implements Drone, Car {
+public class Toyota extends FlyingCar implements Car, Drone {
 	// a regular class can inherit only one regular class by extends key word or
 	// a regular class can inherit only one abstract class by extends key word
 	// a regular class can't inherit an Interface by extends key word
@@ -17,6 +18,10 @@ public class Toyota extends FlyingCar implements Drone, Car {
 	// method implemented in a class but can't be declared
 	public void toyotaInfo() { // method implemented
 		System.out.println("This method is from Toyota class");
+	}	
+	
+	public static void toyota() {
+		System.out.println("This is a static method from Toyota class");
 	}
 
 	@Override
