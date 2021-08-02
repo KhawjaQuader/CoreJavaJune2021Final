@@ -1,7 +1,7 @@
 package lec17_java_oop_conditional_statements;
 
 /*
-Conditional Statement:
+ Conditional Statement:
 
 Conditional Statements allow the program to behave differently based on condition. Example: if, else, else if, Switch.
 != is called ‘not equal to’
@@ -16,22 +16,32 @@ When we write else, no condition is necessary to write as parentheses.
 But if we wish to write a second condition , we have to use ‘else if’, not ‘else’. 
 
 
-*/
-public class CompareNumber08 {
+ */
+
+public class CompareNumber09 {
 
 	public static void main(String[] args) {
 		int val1 = 45;
-		int val2 = 40;
+		int val2 = 45;
 
 		if (val1 % 2 == 0 && val1 < val2) {
-			System.out.println(val1 + " is an even number and " + val1 + " is shorter than " + val2);
+			System.out.println(val1 + " is an even number and shorter than " + val2);
+		} else if (val1 % 2 == 0 && val1 > val2) {
+			System.out.println(val1 + " is an even number and greater than " + val2);
 		} else if (val1 % 2 == 1 && val1 < val2) {
-			System.out.println(val1 + " is an odd number and " + val1 + " is shorter than " + val2);
-		}  else if (val1 % 2 == 0 || val1 < val2) {
-			System.out.println(val1 + " is an even number or " + val1 + " is shorter than " + val2);
-		} else if (val1 % 2 == 1 || val1 < val2) {
-			System.out.println(val1 + " is an odd number or " + val1 + " is shorter than " + val2);
-		} 
+			System.out.println(val1 + " is an odd number and shorter than " + val2);
+		} else if (val1 % 2 == 1 && val1 > val2) {
+			System.out.println(val1 + " is an odd number and greater than " + val2);
+		} else if (val1 % 2 == 0 && val1 != val2) {
+			System.out.println(val1 + " is an even number and not equal to " + val2);
+		} else if (val1 % 2 == 0 && val1 == val2) {
+			System.out.println(val1 + " is an even number and equal to " + val2);
+		} else if (val1 % 2 == 1 && val1 != val2) {
+			System.out.println(val1 + " is an odd number and not equal to " + val2);
+		} else if (val1 % 2 == 1 && val1 >= val2) {
+			System.out.println(val1 + " is an odd number and (greater than or)  equal to " + val2);
+		} else {
+			System.out.println("This is not a vlid case");
+		}
 	}
-
 }
