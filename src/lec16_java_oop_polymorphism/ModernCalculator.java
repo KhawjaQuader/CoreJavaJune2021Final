@@ -1,7 +1,7 @@
 package lec16_java_oop_polymorphism;
 
 public class ModernCalculator extends LandCalculator {
-	// summary: same method name, same signature/parameter but Overriding the logic of the method
+		// summary: same method name, same signature/parameter but Overriding the logic of the method
 		// Method overriding(same method name, same parameter but different syntax or logic)
 		// Also called -- Late binding or dynamic binding or runtime polymorphism
 	

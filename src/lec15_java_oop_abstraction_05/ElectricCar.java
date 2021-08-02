@@ -1,5 +1,7 @@
 package lec15_java_oop_abstraction_05;
 
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.DEFAULT;
+
 public abstract class ElectricCar extends Ferrari{
 	
 	public String Name;
@@ -23,5 +25,7 @@ public abstract class ElectricCar extends Ferrari{
 	public static void luxury() {
 		System.out.println("Electric car is now a luxury!");
 	}
+	
+	// default methods are only allowed in Interface
 
 }

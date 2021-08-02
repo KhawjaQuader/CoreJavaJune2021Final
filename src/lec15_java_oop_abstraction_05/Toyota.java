@@ -20,6 +20,8 @@ public class Toyota extends FlyingCar implements Car, Drone {
 		System.out.println("This method is from Toyota class");
 	}	
 	
+	// Default methods are only allowed in Interface.
+	
 	public static void toyota() {
 		System.out.println("This is a static method from Toyota class");
 	}

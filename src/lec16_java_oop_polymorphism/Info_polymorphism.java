@@ -6,8 +6,8 @@ What is Polymorphism?
 -- Polymorphism is the ability of an object to take on many forms. 
 
 What are the different types of Polymorphism and when that happen?
--- Static Polymorphism or early binding (method overloading): happens in compile time. 
--- Dynamic Polymorphism or late binding (method overriding): happens in Run time.
+-- Static Polymorphism or early binding or method overloading: happens in compile time. 
+-- Dynamic Polymorphism or late binding or method overriding: happens in Run time.
 
 What is method overloading and when it happens?
 -- When different methods exist with the same method name but with different parameters or signature, is called method overloading. Method Overloading occurs during compile time.
