@@ -1,11 +1,12 @@
 package lec17_java_oop_conditional_statements;
 
-//First condition is if
-
-// we don't use 2 if condition, rather we use if in one condition and else in another condition, but one if condition is ok.
-// Generally the true statement comes at the end
-//when we write else, no condition is necessary
-// if we want to write a second condition , we have to use else if
+/*
+Regarding condition: First condition is if
+Generally we don't use 2 if condition (code wise OK), rather we use if as first condition and else or else if as second condition. 
+Generally the true statement is written at the end.
+When we write else, no condition is necessary to write as parentheses.
+But if we wish to write a second condition , we have to use ‘else if’, not ‘else’. 
+*/
 
 public class CompareNumber04 {
 
