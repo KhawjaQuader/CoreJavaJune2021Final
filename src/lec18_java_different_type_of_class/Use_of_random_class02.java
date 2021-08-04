@@ -1,14 +1,15 @@
-package lec16_java_oop_polymorphism;
+package lec18_java_different_type_of_class;
 
-import java.util.Scanner;
+import java.util.Random;
 
-public class TestPractice {
+public class Use_of_random_class02 {
 
-	public static void main(String[] args) {		
-		Scanner scanner = new Scanner(System.in); // System Class, in is a property of InputStream
-		System.out.println("Please enter age here: ");
-		int val1 = scanner.nextInt(); 
-		int val2 = scanner.nextInt(); 
+	public static void main(String[] args) {
+
+		Random random = new Random();
+		int val1 = random.nextInt(1000);
+		int val2 = random.nextInt(1000);
+
 		if (val1 % 2 == 0 && val1 < val2) {
 			System.out.println(val1 + " is an even number and shorter than " + val2);
 		} else if (val1 % 2 == 0 && val1 > val2) {
@@ -26,9 +27,8 @@ public class TestPractice {
 		} else if (val1 % 2 == 1 && val1 >= val2) {
 			System.out.println(val1 + " is an odd number and (greater than or)  equal to " + val2);
 		} else {
-			System.out.println("This is not a vlid case");
+			System.out.println("This is not a valid case");
 		}
-		scanner.close();
 
 	}
 

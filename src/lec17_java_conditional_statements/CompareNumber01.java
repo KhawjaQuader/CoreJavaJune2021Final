@@ -1,4 +1,4 @@
-package lec17_java_oop_conditional_statements;
+package lec17_java_conditional_statements;
 
 /*
  Regarding condition: First condition is if

@@ -1,4 +1,4 @@
-package lec17_java_oop_conditional_statements;
+package lec17_java_conditional_statements;
 
 /*
 Conditional Statement:
@@ -17,17 +17,21 @@ But if we wish to write a second condition , we have to use ‘else if’, not �
 
 
 */
-
-public class CompareNumber06 {
+public class CompareNumber07 {
 
 	public static void main(String[] args) {
-		int val = 45;
+		int val1 = 45;
+		int val2 = 45;
 
-		if (val % 2 == 0) {
-			System.out.println(val + "is an even number");
-		} else if (val % 2 == 1) {
-			System.out.println(val + "is an odd number");
-		}
+		if (val1 < val2) {
+			System.out.println(val1 + " is shorter than " + val2);
+		} else if (val1 > val2) {
+			System.out.println(val1 + " is greater than " + val2);
+		} else if (val1!=val2) {
+			System.out.println(val1 + " is not equal to " + val2);
+		} else if (val1==val2) {
+			System.out.println(val1 + " is not equal to " + val2);
+		} 
 
 	}
 

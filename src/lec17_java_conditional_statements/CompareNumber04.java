@@ -1,4 +1,4 @@
-package lec17_java_oop_conditional_statements;
+package lec17_java_conditional_statements;
 
 /*
 Regarding condition: First condition is if
@@ -8,17 +8,18 @@ When we write else, no condition is necessary to write as parentheses.
 But if we wish to write a second condition , we have to use ‘else if’, not ‘else’. 
 */
 
-
-public class CompareNumber03 {
+public class CompareNumber04 {
 
 	public static void main(String[] args) {
-		int val1 = 113;
+		int val1 = 45;
 		int val2 = 45;
 
 		if (val1 < val2) {
 			System.out.println(val1 + " is shorter than " + val2);
 		} else if (val1 > val2) {
 			System.out.println(val1 + " is greater than " + val2);
+		} else {
+			System.out.println(val1 + " is equal to " + val2);
 		}
 
 	}

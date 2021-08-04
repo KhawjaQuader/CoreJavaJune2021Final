@@ -1,4 +1,4 @@
-package lec17_java_oop_conditional_statements;
+package lec17_java_conditional_statements;
 
 /*
  Conditional Statement:
@@ -41,7 +41,7 @@ public class CompareNumber09 {
 		} else if (val1 % 2 == 1 && val1 >= val2) {
 			System.out.println(val1 + " is an odd number and (greater than or)  equal to " + val2);
 		} else {
-			System.out.println("This is not a vlid case");
+			System.out.println("This is not a valid case");
 		}
 	}
 }
