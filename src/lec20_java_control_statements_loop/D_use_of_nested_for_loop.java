@@ -1,6 +1,6 @@
-package lec19_java_loop;
+package lec20_java_control_statements_loop;
 
-public class Use_of_nested_for_loop {
+public class D_use_of_nested_for_loop {
 
 	public static void main(String[] args) {
 		

@@ -1,4 +1,4 @@
-package lec19_java_loop;
+package lec19_java_control_statements_loop;
 
 // for loop
 // all the loop contain initialization block, conditional block and increment or decremental block
@@ -16,7 +16,7 @@ package lec19_java_loop;
 // i = i-3 means decrement by 3
 // i - = 3 means decrement by 3
 
-public class Use_of_java_for_loop {
+public class A_use_of_java_for_loop {
 
 	public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
-package lec19_java_loop;
+package lec20_java_control_statements_loop;
 
-public class Use_of_java_break {
+public class E_use_of_java_break {
 
 	public static void main(String[] args) {
 		System.out.println("\n---------- for loop  ----------\n");

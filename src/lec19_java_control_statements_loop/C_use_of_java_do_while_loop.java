@@ -1,4 +1,4 @@
-package lec19_java_loop;
+package lec19_java_control_statements_loop;
 
 // do while loop
 // all the loop contain: initialization block, conditional block and increment or decremental block
@@ -6,7 +6,7 @@ package lec19_java_loop;
 // what is the difference between while and do while loop? important interview question
 
 
-public class Use_of_java_do_while_loop {
+public class C_use_of_java_do_while_loop {
 
 	public static void main(String[] args) {
 
