@@ -2,7 +2,7 @@ package lec20_java_switch_method;
 
 import java.util.Scanner;
 
-public class C_example_of_switch_in_counting_month_of_brith {
+public class D_example_of_switch_in_counting_month_of_brith {
 
 	public static void main(String[] args) {
 		System.out.println("Print the number of month you born: ");

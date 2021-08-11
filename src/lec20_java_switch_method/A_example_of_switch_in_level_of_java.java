@@ -2,44 +2,33 @@ package lec20_java_switch_method;
 
 // switch method generally used when constant type data is used
 
-public class A2_example_of_switch_in_level_of_java_by_scanner_class {
+public class A_example_of_switch_in_level_of_java {
 
 	public static void main(String[] args) {
 		String MyLevelOfJava = "Intermediate";
-		int level = 0;
 
 		switch (MyLevelOfJava) {
 		case "Beginner":
-			level = 1;
+			System.out.println("I am at beginning");
 			break;
 
 		case "Intermediate":
-			level = 2;
+			System.out.println("I am at Intermediate level");;
 			break;
 
 		case "Expert":
-			level = 3;
+			System.out.println("I am an expert in Java");
 			break;
 
 		case "Excellent":
-			level = 4;
+			System.out.println("I have a Java certification from Oracle");
 			break;
 
 		default:
-			level = 0;
+			System.out.println("I am a drop out");
 			break;
 		}
 
-		switch (MyLevelOfJava) {
-		case "Beginner":
-
-			break;
-
-		default:
-			break;
-		}
-
-		System.out.println("My Level of Java is: " + level);
 	}
 
 }

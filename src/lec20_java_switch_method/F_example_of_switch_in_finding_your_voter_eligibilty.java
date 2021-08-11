@@ -2,7 +2,7 @@ package lec20_java_switch_method;
 
 import java.util.Scanner;
 
-public class D_example_of_switch_in_finding_your_voter_eligibilty {
+public class F_example_of_switch_in_finding_your_voter_eligibilty {
 
 	public static void main(String args[]) {
 		System.out.println("Please read carefully");

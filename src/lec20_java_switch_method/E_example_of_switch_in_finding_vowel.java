@@ -1,7 +1,7 @@
 package lec20_java_switch_method;
 
 
-public class D_example_of_switch_in_finding_vowel {
+public class E_example_of_switch_in_finding_vowel {
 
 	public static void main(String[] args) {
 		char ch = 'n';
