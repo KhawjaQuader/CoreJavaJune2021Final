@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // switch method generally used when constant type data is used
 
-public class A_example_of_switch_in_level_of_java {
+public class B_example_of_switch_in_level_of_java {
 
 	public static void main(String[] args) {
 		System.out.println("Please enter your level of Java here: ");

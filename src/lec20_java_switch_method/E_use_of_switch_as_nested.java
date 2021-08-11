@@ -1,5 +1,7 @@
 package lec20_java_switch_method;
 
+// switch method inside another switch method = nested switch method
+
 public class E_use_of_switch_as_nested {
 
 	public static void main(String args[]) {
