@@ -1,4 +1,4 @@
-package lec21_java_string_manipulation;
+package lec22_java_string_manipulation;
 
 // Java StringBuilder class is used to create mutable (modifiable) String. The Java StringBuilder class is same as StringBuffer class except that it is non-synchronized. It is available since JDK 1.5.
 

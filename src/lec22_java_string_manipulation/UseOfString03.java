@@ -1,4 +1,4 @@
-package lec21_java_string_manipulation;
+package lec22_java_string_manipulation;
 
 // This class is for your record, you can see when you have enough time, specially before interview
 
