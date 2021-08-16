@@ -5,6 +5,7 @@ package lec20_java_switch_method;
 public class A_example_of_switch_in_level_of_java {
 
 	public static void main(String[] args) {
+		
 		String MyLevelOfJava = "Intermediate";
 
 		switch (MyLevelOfJava) {

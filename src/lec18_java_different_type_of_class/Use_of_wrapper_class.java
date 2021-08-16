@@ -18,6 +18,9 @@ public class Use_of_wrapper_class {
 		System.out.println(StName);
 		System.out.println(StName + 20);
 		System.out.println(StName+"  "+20);
+		System.out.println(StName+"  "+20+10); // newly added on 08152021
+		System.out.println(StName+"  "+(20+10)); // newly added on 08152021
+		System.out.println(20+10+StName+"  "+20); // newly added on 08152021
 		System.out.println(Integer.parseInt(StName));  // you learn this line from this page
 		System.out.println(Integer.parseInt(StName)+20);
 		System.out.println(Integer.parseInt(StName)+"         "+20);

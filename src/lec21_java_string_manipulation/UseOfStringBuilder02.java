@@ -1,6 +1,6 @@
-package lec18_java_different_type_of_class;
+package lec21_java_string_manipulation;
 
-public class UseOfStringBuilder {
+public class UseOfStringBuilder02 {
 
 	public static void main(String[] args) {
 	
