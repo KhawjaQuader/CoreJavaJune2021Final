@@ -1,4 +1,4 @@
-package lec22_java_string_manipulation;
+package lec21_java_string_manipulation01;
 
 // https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
 
@@ -19,6 +19,7 @@ public class UseOfString01 {
 		// The java string toUpperCase() method returns the string in uppercase letter.
 		System.out.println("\n");
 		System.out.println(s.toUpperCase());
+// Hi
 		
 		// charAt() -- Returns the char value at the specified index.
 		// The index number starts from 0 and goes to n-1, where n is the length of the string. 

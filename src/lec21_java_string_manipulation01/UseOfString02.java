@@ -1,6 +1,4 @@
-package lec22_java_string_manipulation;
-
-import java.util.Arrays;
+package lec21_java_string_manipulation01;
 
 // https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
 
@@ -57,62 +55,7 @@ public class UseOfString02 {
 		
 		String date = "08/11/2021"; // very much used
 		System.out.println("After replacing: " + date.replace('/', '-') );
-		
-		// The java string replaceAll() method returns a string replacing all the sequence of characters matching regex and replacement string.
-		System.out.println("After replacing the complete word: " + s5.replaceAll(s5, "Hey Hey captian!"));
-		
-		// regular way of concatenation
-		System.out.println(s1+s10);
-		
-		// Concatenation
-		// The Java String class concat() method combines specified string at the end of this string. It returns a combined string.
-		String s11 = "My name is ";
-		String s12 = "Tofael";
-		System.out.println("\n" + s11.concat(s12));
-		
-		// You don't need to study below code (learn later)
-		// use of split()
-		// The java string split() method splits this string against a given regular expression and returns a char array.
-		String line = "I am a java developer";
-		String[] words = line.split(" "); // converted to a List
-		System.out.println("\nString split with delimiter: " +Arrays.toString(words)); // outcome is a List
-		
-		String[] Words2 = line.split(" ", 3); // see the outcome and understand it	
-		System.out.println("String split into two: " + Arrays.toString(Words2));
-
-		// You don't need to study below code (learn later)
-		//regex = regular expression
-		// split string delimited with special characters
-		String wordsWithNumbers = "I|am|a|java|developer";
-		String[] numbers = wordsWithNumbers.split("\\|");
-		System.out.println("String split with special character: " + Arrays.toString(numbers));
-		
-		// split() to get the string into pieces->changes into String type List[]
-		System.out.println("\n^^^^^^^^^^^^^ changing s1 into String[] ^^^^^^^^^^^^^^^^ ");
-		String[] ar = s1.split(" ");
-		System.out.println(Arrays.toString(ar));
-		for (int i = 0; i < ar.length; i++) { // here length is a property, not method
-			System.out.println(ar[i]);
-		}
-		
-		System.out.println("\n-------------------------------------------");
-		String s13 = "Hello_Selenium_java_Jenkins";
-        String array[]=s13.split("_");
-        System.out.println(Arrays.toString(array));
-        for(int i =0; i<array.length;i++){
-            System.out.println(array[i]);
-        }
-		
-		
-		
-
-		
-		
-		
-		
-		
-		
-		
+	
 	}
 
 }

@@ -73,7 +73,14 @@ public class Use_of_wrapper_class {
 		System.out.println(empId+"  "+251);
 		System.out.println(String.valueOf(empId)); // you learn this line from this page. very important
 		System.out.println(String.valueOf(empId)+20); 
-
+		
+		System.out.println("\n................. conversion from int to String .....................\n");
+		float grade = 3.112f;
+		System.out.println(grade); 
+		System.out.println(grade+251); 
+		System.out.println(grade+"  "+251);
+		System.out.println(String.valueOf(grade)); // you learn this line from this page. very important
+		System.out.println(String.valueOf(grade)+20); 
 	}
 
 }

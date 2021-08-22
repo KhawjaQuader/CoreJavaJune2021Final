@@ -62,7 +62,7 @@ public class UseOfString03 {
 
 		// The java string valueOf() method converts different types of values into
 		// string.
-		// how to turn int to String
+		// how to turn int, float etc. to String
 		int age = 30;
 		String s11 = String.valueOf(age);
 		System.out.println(s11 + 10);// concatenating string with 10
