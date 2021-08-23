@@ -16,7 +16,8 @@ Performance		Fast						    Slow								Fast
 
 2. Why is String immutable? *************
 -- String is Immutable because it can't be modified.
--- Once you assign a string object, that object can not be changed in memory. In summary, what you did is to change the reference of "a" to a new string object. Java String is immutable, String will Store the value in the form of an object. The string "a" remains the same.
+-- Once you assign a string object, that object can not be changed in memory. In summary, what you did is to change the reference of "a" to a new string object. 
+Java String is immutable, String will Store the value in the form of an object. The string "a" remains the same.
 https://www.youtube.com/watch?v=to9DPVsdByE
 
 3. Which method finds the length of a string in Java String class?
