@@ -68,6 +68,6 @@ i) Deal of the Day---> //a[text()='Deal of the Day']
 
 
 
-public class Creation_of_dynamic_xpath {
+public class Creation_of_dynamic_xpath01 {
 
 }
